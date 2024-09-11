@@ -39,7 +39,7 @@ $widevinePssh = extractPsshFromManifest($manifestContent, $baseUrl, $userAgent, 
       $processedManifest
     );
 }
-if (in_array($id, ['244', '599','484'])) {
+if (in_array($id, ['244', '599'])) {
     $processedManifest = str_replace(
         'minBandwidth="226400" maxBandwidth="3187600" maxWidth="1920" maxHeight="1080"',
         'minBandwidth="226400" maxBandwidth="2452400" maxWidth="1280" maxHeight="720"',
